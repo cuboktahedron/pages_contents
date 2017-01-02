@@ -1,0 +1,10 @@
+<div>タグ一覧</div>
+<ul class="tags">
+  {{ range $name, $value := $.Site.Taxonomies.tags }}
+  <li>
+    <a href="{{ $.Site.BaseURL }}/tags/{{ $name }}/">
+      <div><span class="badge"></span>{{ $name }} ({{ .Count }})</div>
+    </a>
+  </li>
+  {{ end }}
+</ul>

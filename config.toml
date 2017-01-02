@@ -1,0 +1,9 @@
+languageCode = "ja-jp"
+baseurl = "http://cuboktahedron.github.io/"
+
+[Params]
+author = "cuboktahedron"
+
+[taxnomies]
+tags = "tags"
+
