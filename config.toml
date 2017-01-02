@@ -1,5 +1,5 @@
 languageCode = "ja-jp"
-baseurl = "http://cuboktahedron.github.io/"
+baseurl = "https://cuboktahedron.github.io/"
 
 [Params]
 author = "cuboktahedron"
