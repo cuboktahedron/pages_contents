@@ -10,41 +10,41 @@ Description = "いままでに作ったものが置いてあります。"
 
 <br>
 
-## [ぷよ譜検索](http://www.cuboktahedron.sakura.ne.jp/pse/)
+## <a href="/q/pse" target="_blank">ぷよ譜検索</a>
 土台の手順を覚えるためのぷよ譜管理用に作成したもの。<br>  登録してあるぷよ譜は主に2011年度のS級リーグを元にしています。
 
 <br>
 
-## [puyosimu-custom](http://let.hatelabo.jp/cuboktahedron/let/hLHVhsS7yaB6)
-[対戦ぷよぱーく](http://www.puyop.com/)様の連鎖シミュレータ拡張用のブックマークレットです。  
+## <a href="http://let.hatelabo.jp/cuboktahedron/let/hLHVhsS7yaB6" target="_blank">puyosimu-custom</a>
+<a href="http://www.puyop.com/" target="_blank">対戦ぷよぱーく</a>様の連鎖シミュレータ拡張用のブックマークレットです。  
 シミュレータで目隠しぷよができるよ。
 
 <br>
 
-## [なぞテト風](http://www.freem.ne.jp/review/game/win/7726)
+## <a href="http://www.freem.ne.jp/review/game/win/7726" target="_blank">なぞテト風</a>
 ニコニコ自作ゲームフェス4投稿用に作成したゲームです。  
-[紹介動画](http://www.nicovideo.jp/watch/sm24671785)はこちら。  
-なお、32bit版がほしい人は、[こちら](https://drive.google.com/open?id=0B5TvzuJ9qmQGV1FvTzVuV2R0WGM&amp;authus)からどうぞ。
+<a href="http://www.nicovideo.jp/watch/sm24671785" target="_blank">紹介動画</a>はこちら。  
+なお、32bit版がほしい人は、<a href="https://drive.google.com/open?id=0B5TvzuJ9qmQGV1FvTzVuV2R0WGM&amp;authus" target="_blank">こちら</a>からどうぞ。
 
 <br>
 
-## [Tetsimu](http://www.cuboktahedron.sakura.ne.jp/tetsimu/)
+## <a href="/q/tetsimu/" target="blank">Tetsimu</a>
 テトリスシミューレータです。  
 ぷよぷよの連鎖シミュレータのようなものを目指して作成しました。
 
 <br>
 
-## [テトリステンプレ検索](http://www.cuboktahedron.sakura.ne.jp/ttse/)
+## <a href="/q/ttse/" target="blank">テトリステンプレ検索</a>
 主に開幕テンプレが検索できます。
 
 <br>
 
-## [IkaRecord](http://www.cuboktahedron.sakura.ne.jp/IkaRecord/)
+## <a href="/q/IkaRecord/" target="blank">IkaRecord</a>
 Splatoonの戦績管理を行うツールです。
 
 <br>
 
-## [宇宙囲碁／SpaceGo](http://www.cuboktahedron.sakura.ne.jp/SpaceGo/)
+## <a href="/q/SpaceGo/" target="blank">宇宙囲碁／SpaceGo</a>
 碁はよく宇宙に例えられる。  
 19路で宇宙は狭かろうという発想から作ってみたが途中で作るのに飽きてしまった作品。  
 上下左右が繋がっている囲碁です。
