@@ -4,15 +4,15 @@ title = "テトリス練習"
 Tags = ["tetris"]
 +++
 
-## <a href="http://www.cuboktahedron.sakura.ne.jp/tetsimu/?f=8y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y028y88y008y8&amp;h=0&amp;v=0.97" target="_blank">中空けRENの練習</a>
+## <a href="/q/tetsimu/?f=8y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y000y88y028y88y008y8&amp;h=0&amp;v=0.97" target="_blank">中空けRENの練習</a>
 
 <br>
 
-## <a href="http://www.cuboktahedron.sakura.ne.jp/tetsimu/?ns=L&h=0&v=0.97" target="_blank">開幕SZの練習</a>
+## <a href="/q/tetsimu/?ns=L&h=0&v=0.97" target="_blank">開幕SZの練習</a>
 
 <br>
 
-## <a href="http://www.cuboktahedron.sakura.ne.jp/tetsimu/?ns=Z&h=0&v=0.97" target="_blank">開幕ZSの練習</a>
+## <a href="/q/tetsimu/?ns=Z&h=0&v=0.97" target="_blank">開幕ZSの練習</a>
 
 <br>
 
