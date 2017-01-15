@@ -6,7 +6,7 @@ Tags = ["rubiks_cube", "oll"]
 css = "own_oll_patterns.css"
 +++
 <div class="pattern">
-  <div class="lc"><img class="type-c" src="/rubiks_cube/img/oll/25a.png"></div><div class="rc"><p>25c</p><p class="steps">RL'UR'U'LURU'R'</p></div>
+  <div class="lc"><img class="type-c" src="/rubiks_cube/img/oll/25.png"></div><div class="rc"><p>25c</p><p class="steps">RL'UR'U'LURU'R'</p></div>
 </div>
 
 <script
