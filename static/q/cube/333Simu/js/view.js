@@ -272,6 +272,12 @@ $(function() {
     C.cube.setup(scramble, rotate);
   });
 
+  $('#txt-scramble').change(function() {
+    var scramble = $(this).val();
+    var reverseScramble = C.cube.reverseScrambleMarks(scramble);
+    $('#txt-reverse-scramble').val(reverseScramble.join(''));
+  });
+
   $('#btn-init').click(function() {
     setup();
   });
