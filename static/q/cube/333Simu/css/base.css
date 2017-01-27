@@ -74,6 +74,15 @@ body {
   cursor: pointer;
 }
 
+#txt-iframe-url {
+  height: 6em;
+  width: 100%;
+}
+
+#txt-zoom {
+  width: 5em;
+}
+
 .cf:before,
 .cf:after {
   content: " ";
