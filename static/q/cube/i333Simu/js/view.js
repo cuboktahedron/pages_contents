@@ -89,6 +89,8 @@ $(function() {
     }
     C.cube.setCubes(resetCubes());
     setupping = true;
+    preRecess = 60;
+    postRecess = 0;
 
     setTimeout(function() {
       C.cube.setup(D.initialParams.setup, rotateForSetup);
@@ -109,6 +111,7 @@ $(function() {
     rotateStack = [];
     currentRot = null;
     rest = 0;
+    postRecess = 0;
 
     // remove if already exists
     if (C.cube.cubes) {
@@ -166,6 +169,24 @@ $(function() {
   var action = function() {
     var cubeNos = C.cubeDefs.cubeNos;
 
+    if (preRecess > 0) {
+      preRecess--;
+      return;
+    }
+
+    if (postRecess > 0) {
+      postRecess--;
+      if (postRecess === 0) {
+        setup();
+
+        if ($('#chk-repeat').hasClass('checked')) {
+          C.cube.setup(D.initialParams.rotation, rotate);
+        }
+      }
+
+      return;
+    }
+
     if (!currentRot && rotateStack.length === 0) {
       return;
     }
@@ -192,6 +213,9 @@ $(function() {
 
     if (rest === 0) {
       C.cube.rotate(currentRot);
+      if (rotateStack.length === 0) {
+        postRecess = 90;
+      }
       currentRot = null;
     }
   }
@@ -230,6 +254,8 @@ $(function() {
   var rotateStack = [];
   var currentRot;
   var rest;
+  var preRecess;
+  var postRecess;
   var velocity = D.initialParams.velocity;
   var angularVelocity = ((Math.PI / 2) / velocity);
 
