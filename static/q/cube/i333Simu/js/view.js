@@ -239,7 +239,6 @@ $(function() {
   render();
 
   velocity = D.initialParams.velocity;
-  $('.velocity-changer[data-velocity=' + velocity + ']').addClass('selected');
   var canvasWidth = $('#stage canvas').width();
   $('#lc').css('width', canvasWidth + 'px');
 
@@ -247,25 +246,20 @@ $(function() {
     rotateStack.push(mark);
   };
 
-  $('#btn-velocity-down').click(function() {
-    var v = $('#txt-velocity').val();
-    if (v < 180) {
-      v++;
-    } else {
-      v = 180;
-    }
-    velocity = v;
-    $('#txt-velocity').val(v);
-  });
-
   $('.velocity-changer').click(function() {
     var $this = $(this);
-    $('.velocity-changer').removeClass('selected');
-    $this.addClass('selected');
 
-    var v = $this.data('velocity');
-    velocity = v;
-    $('#txt-velocity').val(v);
+    var v = $this.data('diff');
+    velocity += v;
+    if (velocity < 1) {
+      velocity = 1;
+    } else if (velocity > 180) {
+      velocity = 180;
+    }
+  });
+
+  $('#repeat-wrapper').click(function() {
+    $('#chk-repeat').toggleClass('checked');
   });
 
   var dirty = false;
