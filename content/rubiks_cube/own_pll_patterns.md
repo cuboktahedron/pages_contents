@@ -3,6 +3,11 @@ tags = ["rubiks_cube", "pll"]
 date = "2017-01-01T21:18:17+09:00"
 title = "PLL手順"
 
+customs = [
+  '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.4.2/css/iziModal.css" integrity="sha256-m/nnXscwkcMbAFsUOys9WKr+MzlZz3q7EcJpkOxItaU=" crossorigin="anonymous" />',
+  '<script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.4.2/js/iziModal.js" integrity="sha256-rPSLT4QVhivrxPwK7xeqPLVWDDtc2YHkZHVxs1I6u9Y=" crossorigin="anonymous"></script>'
+]
+
 css = "own_pll_patterns.css"
 +++
 
@@ -70,15 +75,5 @@ css = "own_pll_patterns.css"
   <div class="lc"><img src="/rubiks_cube/img/pll/21.png"></div><div class="rc"><p>n21/N-perm</p><p class="steps">LU'RU'2L'UR'LU'RU'2L'UR'U</p></div>
 </div>
 
-<script>
-  $('.pattern p.steps').each(function() {
-    var $this = $(this);
-    var pattern = $(this).text();
-    var r = /[UDRLFB]w?'?2?|[MSE]'?2?|\([ruf]'?2?\)/ig
+<script src="/rubiks_cube/js/patterns.js"></script>
 
-    $this.text('');
-    while ((m = r.exec(pattern)) != null) {
-      $(this).append('<span>' + m[0] + '</span>');
-    }
-  });
-</script>

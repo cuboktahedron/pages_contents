@@ -3,6 +3,11 @@ date = "2017-01-02T15:50:12+09:00"
 title = "OLL手順"
 Tags = ["rubiks_cube", "oll"]
 
+customs = [
+  '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.4.2/css/iziModal.css" integrity="sha256-m/nnXscwkcMbAFsUOys9WKr+MzlZz3q7EcJpkOxItaU=" crossorigin="anonymous" />',
+  '<script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.4.2/js/iziModal.js" integrity="sha256-rPSLT4QVhivrxPwK7xeqPLVWDDtc2YHkZHVxs1I6u9Y=" crossorigin="anonymous"></script>'
+]
+
 css = "own_oll_patterns.css"
 +++
 <div class="pattern">
@@ -177,21 +182,5 @@ css = "own_oll_patterns.css"
   <div class="lc"><img src="/rubiks_cube/img/oll/57.png"></div><div class="rc"><p>57</p><p class="steps">M(r)UR'U'M'URU</p></div>
 </div>
 
-<script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
-  
-<script>
-  $('.pattern p.steps').each(function() {
-    var $this = $(this);
-    var pattern = $(this).text();
-    var r = /[UDRLFB]w?'?2?|[MSE]'?2?|\([ruf]'?2?\)/ig
-
-    $this.text('');
-    while ((m = r.exec(pattern)) != null) {
-      $(this).append('<span>' + m[0] + '</span>');
-    }
-  });
-</script>
+<script src="/rubiks_cube/js/patterns.js"></script>
 
