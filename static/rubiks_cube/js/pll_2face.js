@@ -75,9 +75,6 @@ $(function() {
     C.cube.rotate(mark);
   }
 
-  var setup = function() {
-  };
-
   var resetCubes = function() {
     var colors = C.cubeDefs.colors;
 
@@ -167,9 +164,6 @@ $(function() {
   render();
 
   $('#btn-create-image').click(function() {
-//    var canvas = $('#stage canvas')[0];
-//    var imageData = canvas.toDataURL('image/png');
-//    $('#img-capture').attr('src', imageData);
     var stepss = [
       "L'UL'U'L'U'L'ULUL2",
       "RU'RURURU'R'U'R2",
@@ -194,36 +188,50 @@ $(function() {
       "LU'RU'2L'UR'LU'RU'2L'UR'U'",
     ];
 
+    var auf  = ["", "(u)",  "(u2)", "(u')" ];
+
     var i;
+    var j;
+    var k;
     var promise = $.Deferred().resolve().promise();
+    var $n, $nsub;
+    var $perms = $('#perms');
+
     for (i = 0; i < stepss.length; i++) {
+      $n = $('<div class="n-pattern cf">');
+      $perms.append($n);
+      for (j = 0; j < 4; j++) {
+        $nsub = $('<div class="color-variation cf">');
+        $n.append($nsub);
 
-      promise = promise.then(
-        (function(number) {
-          var steps = stepss[number];
+        for (k = 0; k < 4; k++) {
+          promise = promise.then(
+            (function(number, $nsub) {
+              var steps = auf[j] + stepss[number] + auf[k];
 
-          return function() {
-            var d = $.Deferred();
-            a(d, steps);
-            return d.promise();
-          };
-        })(i)
-      ).then(
-        (function(number) {
-          var steps = stepss[number];
+              return function() {
+                var d = $.Deferred();
+                setup(d, $nsub, steps);
+                return d.promise();
+              };
+            })(i, $nsub)
+          ).then(
+            (function(number) {
+              var steps = auf[j] + stepss[number] + auf[k];
 
-          return function() {
-            var d = $.Deferred();
-            b(d, steps);
-            return d.promise();
-          };
-        })(i)
-      );
+              return function() {
+                var d = $.Deferred();
+                reverseSetup(d, steps);
+                return d.promise();
+              };
+            })(i)
+          );
+        }
+      }
     }
   });
 
-  var a = function(d, steps) {
-    var $perms = $('#perms');
+  var setup = function(d, $nsub, steps) {
     var canvas = $('#stage canvas')[0];
     var imageData;
 
@@ -231,62 +239,15 @@ $(function() {
     setTimeout(function() {
       var imageData = canvas.toDataURL('image/png');
       var $img = $('<img>').attr('src', imageData);
-      var $n = $('<div class="cf">');
-      $n.append($img);
-      $perms.append($n);
+      $nsub.append($img);
       d.resolve();
-    }, 100);
+    }, 20);
   }
 
-  var b = function(d, steps) {
+  var reverseSetup = function(d, steps) {
     var rsteps = C.cube.reverseScrambleMarks(steps);
-    console.log(steps + ' :  ' + rsteps);
     C.cube.setup(rsteps, rotateForSetup);
-    setTimeout(function() {
-      d.resolve();
-    }, 100);
+    d.resolve();
   }
-
-  var reverseSetup = function(scramble) {
-    var r = /[UDRLFB]w'?2?|[xyz]'?2?|\(([urf]'?2?)\)/g;
-    var mark;
-    var rotTable = [];
-    var m;
-    rotTable["Uw"] = "y";
-    rotTable["Dw"] = "y'";
-    rotTable["Rw"] = "x";
-    rotTable["Lw"] = "x'";
-    rotTable["Fw"] = "z";
-    rotTable["Bw"] = "z'";
-    rotTable["u"]  = "y";
-    rotTable["r"]  = "x";
-    rotTable["f"]  = "z";
-    rotTable["x"]  = rotTable["r"];
-    rotTable["y"]  = rotTable["u"];
-    rotTable["z"]  = rotTable["f"];
-
-    for (var mark in rotTable) {
-      if(rotTable[mark].indexOf("'") !== -1) {
-        rotTable[mark + "'"] = rotTable[mark].replace("'", "");
-      } else {
-        rotTable[mark + "'"] = rotTable[mark] + "'";
-      }
-      rotTable[mark + "2"] = rotTable[mark] + "2";
-      rotTable[mark + "'2"] = rotTable[mark] + "'2";
-    }
-
-    var headSetup = "";
-    while ((m = r.exec(scramble)) != null) {
-      if (m[1] == null) {
-        mark = m[0];
-      } else {
-        mark = m[1];
-      }
-
-      headSetup += rotTable[mark];
-    }
-
-    return headSetup;
-  };
 });
 
