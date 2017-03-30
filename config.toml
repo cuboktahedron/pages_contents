@@ -1,6 +1,7 @@
 languageCode = "ja-jp"
 baseurl = "https://cuboktahedron.github.io/"
 title = "Ununique."
+hasCJKLanguage = true
 
 [Params]
 author = "cuboktahedron"
