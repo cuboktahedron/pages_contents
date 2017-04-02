@@ -13,7 +13,7 @@ css = "own_oll_patterns.css"
 <div class="pattern">
   <p>01</p>
   <div class="type type-a cf">
-    <div class="lc"><img src="/rubiks_cube/img/oll/01.png"></div><div class="rc"><p class="steps">L'UL'U'L'U'L'ULUL2</p></div>
+    <div class="lc"><img src="/rubiks_cube/img/oll/01.png"></div><div class="rc"><p class="steps">RUB'RBR'2U'R'FRF'</p></div>
   </div>
 </div>
 <div class="pattern">
