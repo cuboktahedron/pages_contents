@@ -174,6 +174,9 @@ css = "own_oll_patterns.css"
   <div class="type type-a cf">
     <div class="lc"><img src="/rubiks_cube/img/oll/27.png"></div><div class="rc"><p class="steps">L'U2LUL'UL</p></div>
   </div>
+  <div class="type type-c cf">
+    <div class="lc"><img src="/rubiks_cube/img/oll/27.png"></div><div class="rc"><p class="steps">R'U2RUR'UR</p></div>
+  </div>
 </div>
 <div class="pattern">
   <p>28</p>
@@ -233,6 +236,9 @@ css = "own_oll_patterns.css"
   <p>37</p>
   <div class="type type-a cf">
     <div class="lc"><img src="/rubiks_cube/img/oll/37.png"></div><div class="rc"><p class="steps">R'FRF'(u)U'L'UL</div>
+  </div>
+  <div class="type type-d cf">
+    <div class="lc"><img src="/rubiks_cube/img/oll/37.png"></div><div class="rc"><p class="steps">LwU'R'U(r)(u)URU'R'</div>
   </div>
 </div>
 <div class="pattern">
