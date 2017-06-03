@@ -14,13 +14,6 @@ cuboktahedron(cubokta)
 
 <br>
 
-## 2017年の目標
-- ルービックキューブ avg12 sub20
-- 体重 前年比3.2% 体脂肪前年比10% down
-- 股割できるようになる
-
-<br>
-
 ## Twitter
 [@cubokta](https://twitter.com/cubokta)
 
