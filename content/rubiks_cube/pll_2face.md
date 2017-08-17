@@ -70,9 +70,14 @@ css = "pll_2face.css"
     <ul>
       <li>
         <h3>n3-1</h3>
+        <p>Form(F) = (a:b:a) and Form(R) = (a:b:c) => { A, R, G }</p>
+        <p>E(r) = C(fr) and C(rf) = Next(C(rb)) => { A(n3-1) }</p>
       </li>
       <li>
         <h3>n3-2</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:b) => { A, T, V, R, G }</p>
+        <p>E(f) != Invert(C(rf)) => { A, V, R, G }</p>
+        <p>E(f) != C(rf) => { A(n3-2) }</p>
       </li>
       <li>
         <h3>n3-3</h3>
@@ -94,6 +99,8 @@ css = "pll_2face.css"
     <ul>
       <li>
         <h3>n4-1</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:a) => { A, R, G }</p>
+        <p>E(f) = C(rf) and C(fl) = Next(C(fr)) => { A(n4-1) }</p>
       </li>
       <li>
         <h3>n4-2</h3>
@@ -109,6 +116,9 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n4-4</h3>
+        <p>Form(F) = (a:a:b) and Form(R) = (a:b:c) => { A, T, V, R, G }</p>
+        <p>E(r) != Invert(C(fr)) => { A, V, R, G }</p>
+        <p>E(r) != C(rf) => { A(n4-4) }</p>
       </li>
     </ul>
   </div>
