@@ -227,6 +227,10 @@ css = "pll_2face.css"
     <ul>
       <li>
         <h3>n9-1</h3>
+        <p>Form(F) = (a:a:b) and Form(R) = (a:b:c) => { A, T, V, R, G }</p>
+        <p>E(r) = Invert(C(fr)) => { V, R, G }</p>
+        <p>E(f) = Invert(C(fr)) => { V, G }</p>
+        <p>C(rf) = Invert(C(rb)) => { V(n9-1) }</p>
       </li>
       <li>
         <h3>n9-2</h3>
@@ -236,6 +240,10 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n9-3</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:b) => { A, T, V, R, G }</p>
+        <p>E(f) = C(rf) => { V, R, G }</p>
+        <p>E(r) = Invert(C(rf)) => { V, G }</p>
+        <p>C(fr) = Invert(C(fl)) => { V(n9-3) }</p>
       </li>
       <li>
         <h3>n9-4</h3>
@@ -278,12 +286,17 @@ css = "pll_2face.css"
     <ul>
       <li>
         <h3>n11-1</h3>
+        <p>Form(F) = (a:b:a) and Form(R) = (a:b:c) => { A, R, G }</p>
+        <p>E(f) = C(rf) and E(r) = C(fr) => { R(n11-1) }</p>
       </li>
       <li>
         <h3>n11-2</h3>
       </li>
       <li>
         <h3>n11-3</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:b) => { A, T, V, R, G }</p>
+        <p>E(f) = C(rf) => { V, R, G }</p>
+        <p>E(r) != Invert(C(rf)) => { R(n11-3) }</p>
       </li>
       <li>
         <h3>n11-4</h3>
@@ -303,12 +316,17 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n12-2</h3>
+        <p>Form(F) = (a:a:b) and Form(R) = (a:b:c) => { A, T, V, R, G }</p>
+        <p>E(r) = Invert(C(fr)) => { V, R, G }</p>
+        <p>E(f) != Invert(C(fr)) => { R(n12-2) }</p>
       </li>
       <li>
         <h3>n12-3</h3>
       </li>
       <li>
         <h3>n12-4</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:a) => { A, R, G }</p>
+        <p>E(f) = C(rf) and E(r) = C(fr) => { R(n14-1) }</p>
       </li>
     </ul>
   </div>
@@ -370,6 +388,8 @@ css = "pll_2face.css"
     <ul>
       <li>
         <h3>n15-1</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:a:b) => { Y, G }</p>
+        <p>C(fl) != C(rb) => { Y(n15-1) }</p>
       </li>
       <li>
         <h3>n15-2</h3>
@@ -377,6 +397,8 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n15-3</h3>
+        <p>Form(F) = (a:b:b) and Form(R) = (a:b:c) => { Y, G }</p>
+        <p>C(fl) != C(rb) => { Y(n15-3) }</p>
       </li>
       <li>
         <h3>n15-4</h3>
@@ -388,6 +410,27 @@ css = "pll_2face.css"
   <a class="nav-perm">n16/G-perm</a>
   <div class="n-pattern">
     <img class="img-fluid" src="/rubiks_cube/img/pll/2face/16.png">
+    <ul>
+      <li>
+        <h3>n16-1</h3>
+      </li>
+      <li>
+        <h3>n16-2</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:a:b) => { Y, G }</p>
+        <p>C(rl) = C(rb) => { G(n-{16,17}) }</p>
+        <p>E(r) = Invert(C(rb)) => { G(n16-2) }</p>
+      </li>
+      <li>
+        <h3>n16-3</h3>
+        <p>Form(F) = (a:a:b) and Form(R) = (a:b:c) => { A, T, V, R, G }</p>
+        <p>E(r) = Invert(C(fr)) => { V, R, G }</p>
+        <p>E(f) = Invert(C(fr)) => { V, G }</p>
+        <p>C(rf) = Next(C(rb)) => { G(n16-3) }</p>
+      </li>
+      <li>
+        <h3>n16-4</h3>
+      </li>
+    </ul>
   </div>
   <a class="nav-perm">n17/G-perm</a>
   <div class="n-pattern">
@@ -398,6 +441,9 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n17-2</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:a:b) => { Y, G }</p>
+        <p>C(rl) = C(rb) => { G(n-{16,17}) }</p>
+        <p>E(r) = !Invert(C(rb)) => { G(n17-2) }</p>
       </li>
       <li>
         <h3>n17-3</h3>
@@ -432,6 +478,24 @@ css = "pll_2face.css"
   <a class="nav-perm">n19/G-perm</a>
   <div class="n-pattern">
     <img class="img-fluid" src="/rubiks_cube/img/pll/2face/19.png">
+    <ul>
+      <li>
+        <h3>n19-1</h3>
+      </li>
+      <li>
+        <h3>n19-2</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:b) => { A, T, V, R, G }</p>
+        <p>E(f) = C(rf) => { V, R, G }</p>
+        <p>E(r) = Invert(C(rf)) => { V, G }</p>
+        <p>C(fl) = Next(C(fr)) => { V(n19-2) }</p>
+      </li>
+      <li>
+        <h3>n19-3</h3>
+      </li>
+      <li>
+        <h3>n19-4</h3>
+      </li>
+    </ul>
   </div>
   <a class="nav-perm">n20/N-perm</a>
   <div class="n-pattern">
