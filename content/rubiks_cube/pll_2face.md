@@ -71,7 +71,7 @@ css = "pll_2face.css"
       <li>
         <h3>n3-1</h3>
         <p>Form(F) = (a:b:a) and Form(R) = (a:b:c) => { A, R, G }</p>
-        <p>E(r) = C(fr) and C(rf) = Next(C(rb)) => { A(n3-1) }</p>
+        <p>E(r) = C(fr) and E(f) = Next(E(r)) => { A(n3-1) }</p>
       </li>
       <li>
         <h3>n3-2</h3>
@@ -99,7 +99,7 @@ css = "pll_2face.css"
       <li>
         <h3>n4-1</h3>
         <p>Form(F) = (a:b:c) and Form(R) = (a:b:a) => { A, R, G }</p>
-        <p>E(f) = C(rf) and C(fl) = Next(C(fr)) => { A(n4-1) }</p>
+        <p>E(f) = C(rf) and E(f) = Next(E(r) => { A(n4-1) }</p>
       </li>
       <li>
         <h3>n4-2</h3>
@@ -291,6 +291,10 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n11-2</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:c) => { E, F, G, R, V, Y }</p>
+        <p>C(fl) = C(rb) => { F, R, G }</p>
+        <p>E(f) = Invert(E(r)) => { R({n11-2,n12-3}) }</p>
+        <p>E(r) = C(fr) => { R(n11-2) }</p>
       </li>
       <li>
         <h3>n11-3</h3>
@@ -322,6 +326,10 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n12-3</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:c) => { E, F, G, R, V, Y }</p>
+        <p>C(fl) = C(rb) => { F, R, G }</p>
+        <p>E(f) = Invert(E(r)) => { R({n11-2,n12-3}) }</p>
+        <p>E(f) = C(rf) => { R(n12-3) }</p>
       </li>
       <li>
         <h3>n12-4</h3>
@@ -352,7 +360,7 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n13-4</h3>
-        <p>Form(F) = (a:a:ab) and Form(R) = (a:b:b) => { J(n13-4) }</p>
+        <p>Form(F) = (a:a:a) and Form(R) = (a:b:b) => { J(n13-4) }</p>
       </li>
     </ul>
   </div>
@@ -413,11 +421,13 @@ css = "pll_2face.css"
     <ul>
       <li>
         <h3>n16-1</h3>
+        <p>Form(F) = (a:b:a) and Form(R) = (a:b:c) => { A, R, G }</p>
+        <p>E(r) = C(fr) and E(f) = Invert(E(r)) => { G(n16-1) }</p>
       </li>
       <li>
         <h3>n16-2</h3>
         <p>Form(F) = (a:b:c) and Form(R) = (a:a:b) => { Y, G }</p>
-        <p>C(rl) = C(rb) => { G(n-{16,17}) }</p>
+        <p>C(rl) = C(rb) => { G(n{16,17}) }</p>
         <p>E(r) = Invert(C(rb)) => { G(n16-2) }</p>
       </li>
       <li>
@@ -429,6 +439,9 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n16-4</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:a) => { A, R, G }</p>
+        <p>E(f) != C(rf) => { G({ n16-4,n18-4 }) }</p>
+        <p>E(r) = Invert(C(rf)) => { G(n16-4)) }</p>
       </li>
     </ul>
   </div>
@@ -438,11 +451,15 @@ css = "pll_2face.css"
     <ul>
       <li>
         <h3>n17-1</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:c) => { E, F, G, R, V, Y }</p>
+        <p>C(fl) = C(rb) => { F, R, G }</p>
+        <p>E(f) != Invert(E(r)) => { F, G }</p>
+        <p>E(r) != C(fr) => { G(n17-1) }</p>
       </li>
       <li>
         <h3>n17-2</h3>
         <p>Form(F) = (a:b:c) and Form(R) = (a:a:b) => { Y, G }</p>
-        <p>C(rl) = C(rb) => { G(n-{16,17}) }</p>
+        <p>C(rl) = C(rb) => { G(n{16,17}) }</p>
         <p>E(r) = !Invert(C(rb)) => { G(n17-2) }</p>
       </li>
       <li>
@@ -452,6 +469,9 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n17-4</h3>
+        <p>Form(F) = (a:b:a) and Form(R) = (a:b:c) => { A, R, G }</p>
+        <p>E(r) != C(fr) => { G(n17-4,n19-1) }</p>
+        <p>E(f) != Invert(C(fr)) => { G(n17-4) }</p>
       </li>
     </ul>
   </div>
@@ -466,12 +486,22 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n18-2</h3>
+        <p>Form(F) = (a:b:b) and Form(R) = (a:b:c) => { Y, G }</p>
+        <p>C(fl) = C(rb) => { G({n18-2,n19-3}) }</p>
+        <p>E(f) = Next(E(r)) => { G(n18-2) }</p>
       </li>
       <li>
         <h3>n18-3</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:c) => { E, F, G, R, V, Y }</p>
+        <p>C(fl) = C(rb) => { F, R, G }</p>
+        <p>E(f) != Invert(E(r)) => { F, G }</p>
+        <p>E(f) != C(rf) => { G(n18-3) }</p>
       </li>
       <li>
         <h3>n18-4</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:a) => { A, R, G }</p>
+        <p>E(f) != C(rf) => { G(n{ 16-4,18-4 }) }</p>
+        <p>E(r) != Invert(C(rf)) => { G(n18-4)) }</p>
       </li>
     </ul>
   </div>
@@ -481,6 +511,9 @@ css = "pll_2face.css"
     <ul>
       <li>
         <h3>n19-1</h3>
+        <p>Form(F) = (a:b:a) and Form(R) = (a:b:c) => { A, R, G }</p>
+        <p>E(r) != C(fr) => { G(n17-4,n19-1) }</p>
+        <p>E(f) = Invert(C(fr)) => { G(n19-1) }</p>
       </li>
       <li>
         <h3>n19-2</h3>
@@ -491,9 +524,14 @@ css = "pll_2face.css"
       </li>
       <li>
         <h3>n19-3</h3>
+        <p>Form(F) = (a:b:b) and Form(R) = (a:b:c) => { Y, G }</p>
+        <p>C(fl) = C(rb) => { G({n18-2,n19-3}) }</p>
+        <p>E(f) != Next(E(r)) => { G(n19-3) }</p>
       </li>
       <li>
         <h3>n19-4</h3>
+        <p>Form(F) = (a:b:c) and Form(R) = (a:b:a) => { A, R, G }</p>
+        <p>E(f) = C(rf) and E(f) = Invert(E(r)) => { G(n19-4) }</p>
       </li>
     </ul>
   </div>
