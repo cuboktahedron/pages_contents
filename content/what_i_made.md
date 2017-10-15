@@ -51,4 +51,9 @@ Splatoonの戦績管理を行うツールです。
 
 <br>
 
+## <a href="/q/cube/cube-graph/" target="blank">Cube Graph</a>
+ルービックキューブのルートグラフを表示します。
+
+<br>
+
 
