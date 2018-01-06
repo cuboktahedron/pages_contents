@@ -56,4 +56,9 @@ Splatoonの戦績管理を行うツールです。
 
 <br>
 
+## <a href="/q/cube/BLDat/" target="blank">BLDat</a>
+3×3×3ルービックキューブのBLD(M2/OP)の解析を行うツールです。
+
+<br>
+
 
