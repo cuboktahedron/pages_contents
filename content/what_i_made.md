@@ -15,7 +15,7 @@ Description = "いままでに作ったものが置いてあります。"
 
 <br>
 
-## <a href="http://let.hatelabo.jp/cuboktahedron/let/hLHVhsS7yaB6" target="_blank">puyosimu-custom</a>
+## puyosimu-custom (公開終了)
 <a href="http://www.puyop.com/" target="_blank">対戦ぷよぱーく</a>様の連鎖シミュレータ拡張用のブックマークレットです。  
 シミュレータで目隠しぷよができるよ。
 
