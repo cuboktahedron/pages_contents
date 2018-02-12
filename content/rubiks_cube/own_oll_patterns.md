@@ -139,7 +139,7 @@ css = "own_oll_patterns.css"
 <div class="pattern">
   <p>20</p>
   <div class="type type-a cf">
-    <div class="lc"><img src="/rubiks_cube/img/oll/20.png"></div><div class="rc"><p class="steps">M(u')RUR'U'R'U'R'UR(u)M'</p></div>
+    <div class="lc"><img src="/rubiks_cube/img/oll/20.png"></div><div class="rc"><p class="steps">MURUR'U'M2URU'Rw'</p></div>
   </div>
 </div>
 <div class="pattern">
@@ -164,6 +164,9 @@ css = "own_oll_patterns.css"
   <p>24</p>
   <div class="type type-a cf">
     <div class="lc"><img src="/rubiks_cube/img/oll/24.png"></div><div class="rc"><p class="steps">Lw'U'LURU'Rw'F</p></div>
+  </div>
+  <div class="type type-c cf">
+    <div class="lc"><img src="/rubiks_cube/img/oll/24.png"></div><div class="rc"><p class="steps">RwUR'U'Rw'FRF'</p></div>
   </div>
 </div>
 <div class="pattern">
@@ -199,7 +202,7 @@ css = "own_oll_patterns.css"
 <div class="pattern">
   <p>28</p>
   <div class="type type-a cf">
-    <div class="lc"><img src="/rubiks_cube/img/oll/28.png"></div><div class="rc"><p class="steps">L'RBLR'U2L'RBLR'</p></div>
+    <div class="lc"><img src="/rubiks_cube/img/oll/28.png"></div><div class="rc"><p class="steps">RwUR'U'Rw'RURU'R'</p></div>
   </div>
 </div>
 <div class="pattern">
