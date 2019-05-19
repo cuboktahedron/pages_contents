@@ -61,4 +61,8 @@ Splatoonの戦績管理を行うツールです。
 
 <br>
 
+## <a href="/q/fractal/julia/" target="blank">Julia Set Maker</a>
+ジュリア集合の画像生成が行えます。
+
+<br>
 
