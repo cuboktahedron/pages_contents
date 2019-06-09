@@ -66,3 +66,8 @@ Splatoonの戦績管理を行うツールです。
 
 <br>
 
+## <a href="/q/fractal/mandelbrot/" target="blank">Mandelbrot Set Maker</a>
+マンデルブロ集合の画像生成が行えます。
+
+<br>
+
