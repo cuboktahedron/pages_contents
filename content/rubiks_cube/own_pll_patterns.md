@@ -133,7 +133,7 @@ css = "own_pll_patterns.css"
 </div>
 <div class="pattern">
   <p>n19/G-perm</p>
-  <div class="type type-a cf">
+  <div class="type type-b cf">
     <div class="lc"><img src="/rubiks_cube/img/pll/19.png"></div><div class="rc"><p class="steps">R'U'(u)FR2UwR'URU'RUw'R'2</p></div>
   </div>
 </div>
