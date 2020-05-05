@@ -352,7 +352,7 @@ css = "own_oll_patterns.css"
 <div class="pattern">
   <p>52</p>
   <div class="type type-a cf">
-    <div class="lc"><img src="/rubiks_cube/img/oll/52.png"></div><div class="rc"><p class="steps">R'U'RU'R'DwR'URB</p></div>
+    <div class="lc"><img src="/rubiks_cube/img/oll/52.png"></div><div class="rc"><p class="steps">R'U'RU'R'U(u')R'URB</p></div>
   </div>
 </div>
 <div class="pattern">
