@@ -65,11 +65,5 @@ Old pochmann法では以下の手順で2点交換を繰り返し揃えていく�
     <div class="lc"><img src="/rubiks_cube/img/op/j-perm-b.png"></div><div class="rc"><p class="steps" data-visibles="ub3,ur4,urf0,urb1">R'U'RBR'U'RU(r')RU'R'2FRF(r)</p></div>
   </div>
 </div>
-<div class="pattern">
-  <p>Parity</p>
-  <div class="type">
-    <p class="explain">T-perm -> J-perm(n14) -> T-perm を回す。</p>
-  </div>
-</div>
 
 <script src="/rubiks_cube/js/old_pochmann_patterns.js"></script>

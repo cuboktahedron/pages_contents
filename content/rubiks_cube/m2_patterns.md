@@ -153,11 +153,5 @@ M2法は1手順ごとにM列が180°回転するため、偶数回目の場合�
     <div class="lc"><img src="/rubiks_cube/img/m2/db.png"></div><div class="rc"><p class="steps" data-visibles="db3,df4,ub0">MU2MU2</p></div>
   </div>
 </div>
-<div class="pattern">
-  <p>Parity</p>
-  <div class="type">
-    <div class="lc"><img src="/rubiks_cube/img/m2/parity.png"></div><div class="rc"><p class="steps" data-visibles="ul3,df4,ub0">D'L2DM2D'L2D</p></div>
-  </div>
-</div>
 
 <script src="/rubiks_cube/js/m2_patterns.js"></script>
