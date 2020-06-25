@@ -23,9 +23,9 @@ Edge手順/Corner手順
       <p class="steps">
         RUR'U'R'FR2U'R'U'RUR'F'R'U'RBR'U'RU(r')RU'R'2FRF(r)RUR'U'R'FR2U'R'U'RUR'F'
       </p>
-      <div class="explain">
+      <p class="explain">
         T-perm -> J-Perm -> T-perm
-      </div>
+      </p>
     </div>
   </div>
 </div>
@@ -33,7 +33,10 @@ Edge手順/Corner手順
 <div class="pattern">
   <p>M2/Old pochmann</p>
   <div class="type">
-    <div class="lc"><img src="/rubiks_cube/img/parity/m2_old_pochman.png"></div><div class="rc"><p class="steps">D'L2DM2D'L2D</p></div>
+    <div class="lc"><img src="/rubiks_cube/img/parity/m2_old_pochman.png"></div>
+    <div class="rc">
+      <p class="steps">D'L2DM2D'L2D</p>
+    </div>
   </div>
 </div>
 
@@ -43,9 +46,9 @@ Edge手順/Corner手順
     <div class="lc"><img src="/rubiks_cube/img/parity/m2_r2.png"></div>
     <div class="rc">
     <p class="steps">Rw2U'Rw'2(u)R'U'RBR'U'RU(r')RU'R'2FRF(r)(u')L2Uw</p>
-      <div class="explain">
+      <p class="explain">
         Rw2U'Rw’2 -> J-Perm -> (u')L2Uw
-      </div>
+      </p>
     </div>
   </div>
 </div>

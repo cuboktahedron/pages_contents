@@ -39,8 +39,12 @@ Old pochmann法では以下の手順で2点交換を繰り返し揃えていく�
 <div class="pattern">
   <p>変形Y-perm</p>
   <div class="type">
-    <div class="lc"><img src="/rubiks_cube/img/op/transformed-y-perm.png"></div><div class="rc"><p class="steps" data-visibles="rdf3,ulb4,ul0,ub1">RU'R'U'RUR'F'RUR'U'R'FR</p>
-      <p class="explain">PLL(n15/Y-perm)の手順からFとF'のセットアップ、逆セットアップ手順をなくした手順になっている。</p>
+    <div class="lc"><img src="/rubiks_cube/img/op/transformed-y-perm.png"></div>
+    <div class="rc">
+      <p class="steps" data-visibles="rdf3,ulb4,ul0,ub1">RU'R'U'RUR'F'RUR'U'R'FR</p>
+      <p class="explain">
+        PLL(n15/Y-perm)の手順からFとF'のセットアップ、逆セットアップ手順をなくした手順になっている。
+      </p>
     </div>
   </div>
 </div>
@@ -50,19 +54,28 @@ Old pochmann法では以下の手順で2点交換を繰り返し揃えていく�
 <div class="pattern">
   <p>T-perm</p>
   <div class="type">
-    <div class="lc"><img src="/rubiks_cube/img/op/t-perm.png"></div><div class="rc"><p class="steps" data-visibles="ul3,ur4,urf0,urb1">RUR'U'R'FR2U'R'U'RUR'F'</p></div>
+    <div class="lc"><img src="/rubiks_cube/img/op/t-perm.png"></div>
+    <div class="rc">
+      <p class="steps" data-visibles="ul3,ur4,urf0,urb1">RUR'U'R'FR2U'R'U'RUR'F'</p>
+    </div>
   </div>
 </div>
 <div class="pattern">
   <p>J-perm(n13)</p>
   <div class="type">
-    <div class="lc"><img src="/rubiks_cube/img/op/j-perm-a.png"></div><div class="rc"><p class="steps" data-visibles="uf3,ur4,urf0,urb1">RUR'F'RUR'U'R'FR2U'R'U'</p></div>
+    <div class="lc"><img src="/rubiks_cube/img/op/j-perm-a.png"></div>
+    <div class="rc">
+      <p class="steps" data-visibles="uf3,ur4,urf0,urb1">RUR'F'RUR'U'R'FR2U'R'U'</p>
+    </div>
   </div>
 </div>
 <div class="pattern">
   <p>J-perm(n14)</p>
   <div class="type">
-    <div class="lc"><img src="/rubiks_cube/img/op/j-perm-b.png"></div><div class="rc"><p class="steps" data-visibles="ub3,ur4,urf0,urb1">R'U'RBR'U'RU(r')RU'R'2FRF(r)</p></div>
+    <div class="lc"><img src="/rubiks_cube/img/op/j-perm-b.png"></div>
+    <div class="rc">
+      <p class="steps" data-visibles="ub3,ur4,urf0,urb1">R'U'RBR'U'RU(r')RU'R'2FRF(r)</p>
+    </div>
   </div>
 </div>
 
