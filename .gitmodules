@@ -1,0 +1,3 @@
+[submodule "cuboktahedron.github.io"]
+	path = public
+	url = https://github.com/cuboktahedron/cuboktahedron.github.io
