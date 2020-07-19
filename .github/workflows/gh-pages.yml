@@ -27,3 +27,4 @@ jobs:
           user_name: cuboktahedron
           user_email: cuboktahedron@email.com
           publish_branch: master
+          full_commit_message: ${{ github.event.head_commit.message }}
