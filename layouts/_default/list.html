@@ -7,7 +7,14 @@
 
     <!-- 記事10件を抽出してlist_tag.htmlのレイアウトで表示 -->
     {{ range (.Paginator 10).Pages }}
-    {{ .Render "list_tag" }}
+    <div class="tag-post">
+      <div><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+      <div>
+        {{ .Summary }}
+      </div>
+    </div>
+    <br>
+
     {{ end }}
 
     <!-- 記事の前後に移るためのページネータを作成 -->

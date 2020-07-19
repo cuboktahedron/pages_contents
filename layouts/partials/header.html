@@ -20,6 +20,9 @@
         {{ . | safeHTML }}
       {{ end }}
       <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/base.css" >
-      <link rel="stylesheet" href="{{ .Site.BaseURL }}/{{ .Section }}/css/{{ .Params.css }}" >
+
+      {{ if (isset .Params "css") }}
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/{{ .Section }}/css/{{ .Params.css }}" >
+      {{ end }}
   <body>
 
