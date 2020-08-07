@@ -79,4 +79,4 @@ Old pochmann法では以下の手順で2点交換を繰り返し揃えていく�
   </div>
 </div>
 
-<script src="/rubiks_cube/js/old_pochmann_patterns.js"></script>
+<script src="/rubiks_cube/js/old_pochmann.bundle.js"></script>

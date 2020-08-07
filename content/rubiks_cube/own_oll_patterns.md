@@ -594,4 +594,4 @@ css = "own_oll_patterns.css"
   </div>
 </div>
 
-<script src="/rubiks_cube/js/patterns.js"></script>
+<script src="/rubiks_cube/js/oll.bundle.js"></script>

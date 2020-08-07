@@ -53,4 +53,4 @@ Edge手順/Corner手順
   </div>
 </div>
 
-<script src="/rubiks_cube/js/patterns.js"></script>
+<script src="/rubiks_cube/js/parity.bundle.js"></script>
