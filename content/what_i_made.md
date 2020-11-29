@@ -76,3 +76,8 @@ Splatoonの戦績管理を行うツールです。
 
 <br>
 
+## <a href="/q/tetsimu2/" target="blank">Tetsimu2</a>
+テトリスシミューレータv2です。  
+Tetsimuを一から作り直しています。
+
+<br>
