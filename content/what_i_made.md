@@ -34,7 +34,7 @@ Description = "いままでに作ったものが置いてあります。"
 
 <br>
 
-## <a href="/q/ttse/" target="blank">テトリステンプレ検索</a>
+## テトリステンプレ検索(公開終了)
 主に開幕テンプレが検索できます。
 
 <br>
@@ -52,7 +52,7 @@ Splatoonの戦績管理を行うツールです。
 <br>
 
 ## <a href="/q/cube/cube-graph/" target="blank">Cube Graph</a>
-ルービックキューブのルートグラフを表示します。
+ルービックキューブの初期状態からのグラフを表示します。
 
 <br>
 
