@@ -1,7 +1,7 @@
 +++
 date = "2024-04-14T09:00:00+09:00"
 title = "CMLL手順"
-Tags = ["rubiks_cube", "roux_method", "lr"]
+Tags = ["rubiks_cube", "roux_method", "cmll"]
 
 customs = [
   '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.4.2/css/iziModal.css" integrity="sha256-m/nnXscwkcMbAFsUOys9WKr+MzlZz3q7EcJpkOxItaU=" crossorigin="anonymous" />',

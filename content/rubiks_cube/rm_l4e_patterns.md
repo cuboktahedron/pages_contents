@@ -16,7 +16,7 @@ css = "rm_l4e_patterns.css"
   <div class="type">
     <div class="lc"><img src="/rubiks_cube/img/rm_l4e/3cycle_01.png"></div>
     <div class="rc">
-      <p class="steps" data-visibles="fu4,uf0,u0,f4,d5,b2,bd2,db0,bu4,ub5,fd2,df5">MU'2MU'2</p>
+      <p class="steps" data-visibles="fu5,uf4,u2,f0,d4,b5,bd5,db2,bu0,ub2,fd0,df4">U'2MU'2</p>
     </div> 
   </div>
 </div>
@@ -25,7 +25,8 @@ css = "rm_l4e_patterns.css"
   <div class="type">
     <div class="lc"><img src="/rubiks_cube/img/rm_l4e/3cycle_02.png"></div>
     <div class="rc">
-      <p class="steps" data-visibles="fu0,f0,fd5,df2,d4,db4,bd0,b5,bu5,ub4,u2,uf2">M'2U'2M'U'2</p>
+      <!-- <p class="steps" data-visibles="fu0,f0,fd5,df2,d4,db4,bd0,b5,bu5,ub4,u2,uf2">U'2M'U'2</p> -->
+      <p class="steps" data-visibles="fu0,f5,fd5,df4,d2,db2,bd0,b0,bu5,ub2,u4,uf4">U'2M'U'2</p>
     </div> 
   </div>
 </div>
