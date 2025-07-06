@@ -81,3 +81,8 @@ Splatoonの戦績管理を行うツールです。
 Tetsimuを一から作り直しています。
 
 <br>
+
+## <a href="/q/simples/pccs_tone_checker/" target="blank">PCCSトーン判定ツール</a>
+PCCS(日本色研配色体系)のトーン判定を行うツールです。
+
+<br>
